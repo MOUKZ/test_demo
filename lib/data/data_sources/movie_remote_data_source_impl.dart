@@ -5,7 +5,7 @@ import 'package:task_demo/data/models/movie_details_raw_response.dart';
 import 'package:task_demo/data/models/movie_search_raw_item_response.dart';
 import 'package:task_demo/data/models/movie_search_list_raw_response.dart';
 import 'package:task_demo/constants/urls.dart';
-import 'package:task_demo/movie_not_fount_exciption.dart';
+import 'package:task_demo/exceptions/movie_not_fount_exciption.dart';
 
 class MovieRemoteDataSourceImpl implements MovieRemoteDataSource {
   MovieRemoteDataSourceImpl();

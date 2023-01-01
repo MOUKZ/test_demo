@@ -1,7 +1,9 @@
 # task_demo
 ## Movie App
 This repo is for a test required from me <br>
+
 This Movie app uses <a href="https://www.omdbapi.com/">omdbapi</a> to search movies and to check movie details.<br>
+
 This app is built using the flutter bloc clean architecture. <br>
 
 
@@ -16,7 +18,7 @@ This app is built using the flutter bloc clean architecture. <br>
 
 1. Get your api key from <a href="https://www.omdbapi.com/">omdbapi</a>
 
-2. Create a `.env` file in the root of your project with the example content:
+2. Create a `.env` file in the root of your project with this content:
 
 ```sh
 APIKEY=[API_KEY]

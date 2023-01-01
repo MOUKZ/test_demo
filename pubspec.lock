@@ -265,6 +265,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "3.3.0"
+  flutter_dotenv:
+    dependency: "direct main"
+    description:
+      name: flutter_dotenv
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "5.0.2"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -625,13 +632,6 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
-  transparent_image:
-    dependency: "direct main"
-    description:
-      name: transparent_image
-      url: "https://pub.dartlang.org"
-    source: hosted
-    version: "2.0.0"
   typed_data:
     dependency: transitive
     description:

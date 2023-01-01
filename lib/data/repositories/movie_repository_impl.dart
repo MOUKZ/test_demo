@@ -2,7 +2,7 @@ import 'package:task_demo/data/data_sources/movie_remote_data_source.dart';
 import 'package:task_demo/domain/entities/movie.dart';
 import 'package:task_demo/domain/repositories/movie_repository.dart';
 
-import '../../exceptions/movie_not_fount_exciption.dart';
+import '../../exceptions/movie_not_fount_exception.dart';
 
 class MovieRepositoryImpl implements MovieRepository {
   final MovieRemoteDataSource remoteDataSource;

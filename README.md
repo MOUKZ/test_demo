@@ -1,16 +1,22 @@
 # task_demo
+## Movie App
+This repo is for a test required from me <br>
+This Movie app uses <a href="https://www.omdbapi.com/">omdbapi</a> to search movies and to check movie details.<br>
+This app is built using the flutter bloc clean architecture. <br>
 
-A new Flutter project.
 
-## Getting Started
+### Created by Omar Mouki
+<a href="https://github.com/MOUKZ">![GitHub](https://img.shields.io/badge/Github-808080?style=for-the-badge&logo=github&logoColor=white)</a> <a href="https://www.linkedin.com/in/omar-mouki"> ![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)</a> <a href="mailto:omar.mouki@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 
-This project is a starting point for a Flutter application.
+# Usage
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Get your api key from <a href="https://www.omdbapi.com/">omdbapi</a>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. Create a `.env` file in the root of your project with the example content:
+
+```sh
+APIKEY=[API_KEY]
+```
+3. run ```flutter pub get```
+
